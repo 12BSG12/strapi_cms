@@ -42,11 +42,15 @@
         "audios"
       ]
     },
-    "content": {
-      "type": "richtext"
-    },
     "tags": {
       "type": "json"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
